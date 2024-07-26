@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "bucket1" {
-	bucket = "jatin-s3-bucket"
+	bucket = "jatin-first-bucket"
 }
 
 resource "aws_s3_bucket" "bucket2" {
-    bucket = "jatin-first-bucket"
+    bucket = "jatin-second-bucket"
 }
 
 provider "aws" {
